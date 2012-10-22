@@ -40,10 +40,10 @@ void setup() {
       for (int z = 0; z< nZ; z++) {
       meshes[i][j][z] = meshFactory.createSphere( meshPointsU, meshPointsV, r );
       //meshes[i][j][z].setVisibility(true);
-      meshes[i][j][z].setPosition( new PVector(i*r, j*r, z*r ));
+      meshes[i][j][z].setPosition( new PVector(i*r*2, j*r*2, z*r*2 ));
       
       float p = random(1);
-      if(p > 0.3) { meshes[i][j][z].setVisibility(false);}
+      if(p > 0.2) { meshes[i][j][z].setVisibility(false);}
       else meshes[i][j][z].setVisibility(true);
       
       }
@@ -66,21 +66,21 @@ void draw() {
   }
   perspective(fov, aspect, cameraZ/10.0, cameraZ*10.0);
   */
-/*
+
  camera(mouseX, mouseY, cameraz, // eyeX, eyeY, eyeZ
          width/2, height/2, 0, // centerX, centerY, centerZ
          1.0, 1.0, 0.0); // upX, upY, upZ
  if(zplus) cameraz--;
  
- */
+ 
  
   // Set colors
   //stroke( 255, 80 );
   noStroke();
-  fill( 255, 30 );
+  fill( 255);
 
   //draw a grid
-  translate(width/2, height/2, -150);
+  translate(width/2, height/2, -350);
   rotateY(-PI/6);
   rotateX(PI/3);
   rect(0, 0, rectx, recty);

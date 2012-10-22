@@ -28,60 +28,69 @@ class TMeshFactory {
     // Return the geometry
     return tMesh;
   }
-
-  TMesh[] createCube(int iDimU, int iDimV, float radius) {
-
+  
+ 
+  //right now just drawing six sides manually one by one
+  //will try to set one side the parent of the other sides and then use translate rotate to draw the rest
+  TCube createCube ( int dimU, float radius) {
+    //initialize a basic TCube 
+    TCube cube = new TCube();
+    
     // Center the mesh about the TMesh's origin
-    float halfLen = radius/2.0;
+    float halfLen = radius;
     //initialize 6 meshes for one cube
     TMesh[] meshes = new TMesh[6];
     for (int i = 0; i<6; i++) {
-      meshes[i] = initMesh(iDimU, iDimV);
+      meshes[i] = initMesh(dimU, dimU);
       int vCount = meshes[i].mVertices.size();
       if (i == 0) {  //front
         for (int j = 0; j < vCount; j++) {
           PVector currUV = meshes[i].mVertices.get(j).getUV();
-          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.x * radius - halfLen, currUV.y * radius - halfLen, -halfLen ) );
+          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.x * radius*2 - halfLen, currUV.y * radius*2 - halfLen, -halfLen ) );
         }
       }
       if(i==1) {     //back
             for (int j = 0; j < vCount; j++) {
           PVector currUV = meshes[i].mVertices.get(j).getUV();
-          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.x * radius - halfLen, currUV.y * radius - halfLen, halfLen ) );
+          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.x * radius*2 - halfLen, currUV.y * radius*2 - halfLen, halfLen ) );
         }    
       }
       if(i==2) {     //right
             for (int j = 0; j < vCount; j++) {
           PVector currUV = meshes[i].mVertices.get(j).getUV();
-          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.y * radius - halfLen, -halfLen, -currUV.x * radius + halfLen ) );
+          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.y * radius*2 - halfLen, -halfLen, -currUV.x * radius*2 + halfLen ) );
         }    
       }
            if(i==3) {     //left
             for (int j = 0; j < vCount; j++) {
           PVector currUV = meshes[i].mVertices.get(j).getUV();
-          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.y * radius - halfLen, halfLen, -currUV.x * radius +halfLen ) );
+          meshes[i].mVertices.get(j).setPosition( new PVector( currUV.y * radius*2 - halfLen, halfLen, -currUV.x * radius*2 +halfLen ) );
         }    
       }
            if(i==4) {     //left
             for (int j = 0; j < vCount; j++) {
           PVector currUV = meshes[i].mVertices.get(j).getUV();
-          meshes[i].mVertices.get(j).setPosition( new PVector( -halfLen, currUV.y * radius - halfLen,  currUV.x * radius - halfLen ) );
+          meshes[i].mVertices.get(j).setPosition( new PVector( -halfLen, currUV.y * radius*2 - halfLen,  currUV.x * radius*2 - halfLen ) );
         }    
       }
            if(i==5) {     //right
             for (int j = 0; j < vCount; j++) {
           PVector currUV = meshes[i].mVertices.get(j).getUV();
-          meshes[i].mVertices.get(j).setPosition( new PVector( halfLen, currUV.y * radius - halfLen, currUV.x * radius - halfLen ) );
+          meshes[i].mVertices.get(j).setPosition( new PVector( halfLen, currUV.y * radius*2 - halfLen, currUV.x * radius*2 - halfLen ) );
         }    
       }
       
     }
     
-     return meshes;
+    for (int i = 0; i < 6; i++) {
+      cube.cubemeshes[i] = meshes[i];
+    }
+    
+   return cube; 
   }
-
-
-    TMesh createTerrain(int iDimU, int iDimV, float iLengthU, float iLengthV, float iMinHeight, float iMaxHeight, int iOctaves, float iFalloff) {
+  
+ 
+   TMesh createTerrain(int iDimU, int iDimV, float iLengthU, float iLengthV, float iMinHeight, float iMaxHeight, int iOctaves, float iFalloff) {
       // Initialize a basic mesh
       TMesh tMesh = initMesh( iDimU, iDimV );
 
