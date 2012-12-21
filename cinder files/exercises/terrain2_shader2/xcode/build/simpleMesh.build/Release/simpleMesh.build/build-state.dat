@@ -1,0 +1,222 @@
+TsimpleMesh
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Release/simpleMesh.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.pth simpleMesh_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.o /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.o /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c00000000501ACF7700000000000000EE
+t1343934327
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004F7D433B0000000000006500
+t1333609275
+s25856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F7D433C0000000000025E48
+t1333609276
+s155208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004F7D433C0000000000005FA8
+t1333609276
+s24488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000004F7D433C00000000000001E5
+t1333609276
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004F7D433C0000000000014894
+t1333609276
+s84116
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004FD053B00000000000006530
+t1339052976
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FD053B00000000000006560
+t1339052976
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004FD053B1000000000007CED0
+t1339052977
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004FD053B4000000000002D360
+t1339052980
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004FD053B500000000004B9F70
+t1339052981
+s4956016
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004FD053F2000000000032B7E0
+t1339053042
+s3323872
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cpp
+c0000000050A2810600000000000002B6
+t1352827142
+s694
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Info.plist
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/MacOS/simpleMesh
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.o
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMesh.LinkFileList
+c0000000050A283A70000000000000118
+t1352827815
+s280
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.o
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/CinderApp.icns
+c0000000050A26DCE000000000001BEB5
+t1352822222
+s114357
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp
+c0000000050A283870000000000000709
+t1352827783
+s1801
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/simpleMesh_Prefix.pch
+c0000000050A26DCE0000000000000093
+t1352822222
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000050A26DCE0000000000000350
+t1352822222
+s848
+
+CBuild AST from /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cpp
+r0
+
+CBuild AST from /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese57bee27bb52b641^0553f927bb52b641^---0#1#0#--18"Check dependencies36"F39B817A-9215-4B17-9690-0250A0B4EEF0-
+
+CCompileC ./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.o /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374520616.019422
+e374520616.820779
+r0
+xCompileC
+x./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.o
+x/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:50:45: error: expected ')'
+o        mesh.appendTriangle( numberVertices – 4, numberVertices – 3, numberVertices – 2);
+o                                            ^
+o/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:50:28: note: to match this '('
+o        mesh.appendTriangle( numberVertices – 4, numberVertices – 3, numberVertices – 2);
+o                           ^
+o/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:51:45: error: expected ')'
+o        mesh.appendTriangle( numberVertices – 4, numberVertices – 2, numberVertices – 1 );
+o                                            ^
+o/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:51:28: note: to match this '('
+o        mesh.appendTriangle( numberVertices – 4, numberVertices – 2, numberVertices – 1 );
+o                           ^
+o2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cppfd120528bb52b641^a01bd228bb52b641^-944"/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:50:45: error: expected ')'        mesh.appendTriangle( numberVertices – 4, numberVertices – 3, numberVertices – 2);                                            ^/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:50:28: note: to match this '('        mesh.appendTriangle( numberVertices – 4, numberVertices – 3, numberVertices – 2);                           ^/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:51:45: error: expected ')'        mesh.appendTriangle( numberVertices – 4, numberVertices – 2, numberVertices – 1 );                                            ^/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp:51:28: note: to match this '('        mesh.appendTriangle( numberVertices – 4, numberVertices – 2, numberVertices – 1 );                           ^2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@12"Expected ')'-374520616#18446744073709551615#0#1(2@17"To match this '('-374520616#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp0000000000000000^49#27#49#27#1562#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp0000000000000000^49#44#49#44#1579#0#11"Parse Issue--2@12"Expected ')'-374520616#18446744073709551615#0#1(2@17"To match this '('-374520616#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp0000000000000000^50#27#50#27#1658#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp0000000000000000^50#44#50#44#1675#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@83"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp0000000000000000^2909"CompileC ./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.o TCube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -ffast-math -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/build/Release/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/build/Release -include /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch -MMD -MT dependencies -MF /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.d --serialize-diagnostics /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.dia -c /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/TCube.cpp -o /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/TCube.o36"414A98D9-FBF4-4EDD-A29C-C5CBE02B72DE-
+
+CCompileC ./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.o /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374520616.019418
+e374520617.626088
+r1
+xCompileC
+x./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.o
+x/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cppcb120528bb52b641^ae48a029bb52b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cpp0000000000000000^2971"CompileC ./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.o ../src/simpleMeshApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -ffast-math -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/build/Release/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/build/Release -include /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch -MMD -MT dependencies -MF /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.d --serialize-diagnostics /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.dia -c /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/../src/simpleMeshApp.cpp -o /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/Objects-normal/i386/simpleMeshApp.o36"2BFA1630-D09B-471A-93FE-01BDC310CE74-
+
+CCpResource CinderApp.icns ./build/Release/simpleMesh.app/Contents/Resources/CinderApp.icns
+s374520615.990024
+e374520615.992756
+r1
+xCpResource
+xCinderApp.icns
+x./build/Release/simpleMesh.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy ./build/Release/simpleMesh.app/Contents/Resources/CinderApp.icns5682fd27bb52b641^d526fe27bb52b641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Resources/CinderApp.icns000000000080d041^575"CpResource CinderApp.icns ./build/Release/simpleMesh.app/Contents/Resources/CinderApp.icns    cd /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/CinderApp.icns /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Resources36"63E64C2B-9A87-4A63-B886-F0EDCAF67381-
+
+CLd /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/MacOS/simpleMesh normal i386
+r0
+
+CProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Info.plist Info.plist
+s374520615.977745
+e374520615.981262
+r1
+xProcessInfoPlistFile
+x/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist645bfa27bb52b641^2f34fb27bb52b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/Info.plist0000000000000000^456"ProcessInfoPlistFile ./build/Release/simpleMesh.app/Contents/Info.plist Info.plist    cd /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app/Contents/Info.plist36"DE519936-38AE-4831-B9D6-E78ECD43E071-
+
+CProcessPCH++ /Users/yinliu/Library/Developer/Xcode/DerivedData/simpleMesh-djbzutiioobsmcdkynjobmzkkbvf/Index/PrecompiledHeaders/simpleMesh_Prefix-bqhdxmhtrshnjygwucvablyixxib_ast/simpleMesh_Prefix.pch.pth simpleMesh_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.pth simpleMesh_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374520616.000848
+e374520616.012400
+r1
+xProcessPCH++
+x/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.pth
+xsimpleMesh_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile simpleMesh_Prefix.pchbe500028bb52b641^e92c0328bb52b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/simpleMesh_Prefix.pch0000000000000000^2950"ProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.pth simpleMesh_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -ffast-math -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/simpleMesh-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/build/Release/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/simpleMesh.build/Release/simpleMesh.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/build/Release --serialize-diagnostics /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.dia -c /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/simpleMesh_Prefix.pch -o /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-dyfognwmiymqfahijdvamosjuvne/simpleMesh_Prefix.pch.d36"449292EF-FB43-4FFD-86CE-14553E03A28A-
+
+CTouch /Users/yinliu/Documents/Cinder/exercises/simpleMesh/xcode/./build/Release/simpleMesh.app
+r0
+

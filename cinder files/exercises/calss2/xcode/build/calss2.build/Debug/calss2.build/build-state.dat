@@ -1,0 +1,201 @@
+Tcalss2
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/calss2.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.pth calss2_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.o /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/MacOS/calss2 normal i386
+cTouch /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c00000000501ACF7700000000000000EE
+t1343934327
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004F7D433B0000000000006500
+t1333609275
+s25856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F7D433C0000000000025E48
+t1333609276
+s155208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004F7D433C0000000000005FA8
+t1333609276
+s24488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000004F7D433C00000000000001E5
+t1333609276
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004F7D433C0000000000014894
+t1333609276
+s84116
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004FD053B00000000000006530
+t1339052976
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FD053B00000000000006560
+t1339052976
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004FD053B1000000000007CED0
+t1339052977
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004FD053B4000000000002D360
+t1339052980
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004FD053B500000000004B9F70
+t1339052981
+s4956016
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004FD053F2000000000032B7E0
+t1339053042
+s3323872
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp
+c000000005080423B000000000000063E
+t1350582843
+s1598
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Info.plist
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/MacOS/calss2
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2.LinkFileList
+c000000005080423C000000000000007E
+t1350582844
+s126
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.o
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/CinderApp.icns
+c0000000050803871000000000001BEB5
+t1350580337
+s114357
+
+N/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/calss2_Prefix.pch
+c00000000508038710000000000000093
+t1350580337
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000050803871000000000000034C
+t1350580337
+s844
+
+CBuild AST from /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies914330bc7930b641^6aa039bc7930b641^---0#1#0#--18"Check dependencies36"F6093838-EBE0-43B2-BC77-734F302AADE8-
+
+CCompileC ./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.o /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372275644.273885
+e372275645.895638
+r1
+xCompileC
+x./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.o
+x/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp:70:9: warning: unused variable 'a' [-Wunused-variable]
+o    int a = ((subinfo*)(mobj3.get())) ->getNum();
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp4f3d46bc7930b641^1b4ae5bd7930b641^-211"/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp:70:9: warning: unused variable 'a' [-Wunused-variable]    int a = ((subinfo*)(mobj3.get())) ->getNum();        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@19"Unused variable 'a'-372275645#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file://localhost/Users/yinliu/Documents/Cinder/exercises/calss2/src/calss2App.cpp0000000000000000^69#8#69#8#1282#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp0000000000000000^2758"CompileC ./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.o ../src/calss2App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/build/Debug/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/build/Debug -include /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch -MMD -MT dependencies -MF /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.d --serialize-diagnostics /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.dia -c /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/../src/calss2App.cpp -o /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2App.o36"494E0374-42ED-4CA4-A081-E87DFAFFA76C-
+
+CCpResource CinderApp.icns ./build/Debug/calss2.app/Contents/Resources/CinderApp.icns
+s372275644.241146
+e372275644.243530
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/calss2.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy ./build/Debug/calss2.app/Contents/Resources/CinderApp.icns70cd3dbc7930b641^9b5a3ebc7930b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Resources/CinderApp.icns000000000080d041^425"CpResource CinderApp.icns ./build/Debug/calss2.app/Contents/Resources/CinderApp.icns    cd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/CinderApp.icns /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Resources36"B9CB5F24-2949-44EF-B9C7-21E7AF5E34FC-
+
+CLd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/MacOS/calss2 normal i386
+s372275645.903205
+e372275646.401458
+r1
+xLd
+x/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/MacOS/calss2
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/MacOS/calss2ba4ee7bd7930b641^addf6cbe7930b641^---0#0#0#--1047"Ld ./build/Debug/calss2.app/Contents/MacOS/calss2 normal i386    cd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/build/Debug -F/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/build/Debug -filelist /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/Objects-normal/i386/calss2.LinkFileList -mmacosx-version-min=10.5 ../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/MacOS/calss236"8B704804-1AC9-4B59-B51F-A55C26E8EAF8-
+
+CProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Info.plist Info.plist
+s372275644.228471
+e372275644.232408
+r1
+xProcessInfoPlistFile
+x/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist838a3abc7930b641^a6813bbc7930b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/Info.plist0000000000000000^426"ProcessInfoPlistFile ./build/Debug/calss2.app/Contents/Info.plist Info.plist    cd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app/Contents/Info.plist36"204D31E1-85FA-44CE-82D3-142ECA76DADC-
+
+CProcessPCH++ /Users/yinliu/Library/Developer/Xcode/DerivedData/calss2-eowqxmjuayguggcvzvcasdqybtnv/Index/PrecompiledHeaders/calss2_Prefix-coqkaqngipkwqsfrcwhxphhzgajk_ast/calss2_Prefix.pch.pth calss2_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.pth calss2_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372275644.252313
+e372275644.266449
+r1
+xProcessPCH++
+x/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.pth
+xcalss2_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile calss2_Prefix.pcha7ae40bc7930b641^653644bc7930b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/calss2_Prefix.pch0000000000000000^2781"ProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.pth calss2_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/calss2-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/build/Debug/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/calss2.build/Debug/calss2.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/build/Debug --serialize-diagnostics /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.dia -c /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/calss2_Prefix.pch -o /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/calss2_Prefix-ekdrhmgbcfabgwcyybdpuaydueds/calss2_Prefix.pch.d36"CF374262-7389-4D3F-93D6-D6FB61288AF8-
+
+CTouch /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app
+s372275646.409519
+e372275646.414862
+r1
+xTouch
+x/Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app8fe268be7930b641^efe36cbe7930b641^---0#0#0#--193"Touch ./build/Debug/calss2.app    cd /Users/yinliu/Documents/Cinder/exercises/calss2/xcode    /usr/bin/touch -c /Users/yinliu/Documents/Cinder/exercises/calss2/xcode/./build/Debug/calss2.app36"63CC0630-A343-426E-BE90-B5F8A77DF62C-
+

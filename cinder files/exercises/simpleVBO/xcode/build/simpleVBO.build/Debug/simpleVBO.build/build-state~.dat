@@ -1,0 +1,197 @@
+TsimpleVBO
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/simpleVBO.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.pth simpleVBO_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.o /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/MacOS/simpleVBO normal i386
+cTouch /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c00000000501ACF7700000000000000EE
+t1343934327
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004F7D433B0000000000006500
+t1333609275
+s25856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F7D433C0000000000025E48
+t1333609276
+s155208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004F7D433C0000000000005FA8
+t1333609276
+s24488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000004F7D433C00000000000001E5
+t1333609276
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004F7D433C0000000000014894
+t1333609276
+s84116
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004FD053B00000000000006530
+t1339052976
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FD053B00000000000006560
+t1339052976
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004FD053B1000000000007CED0
+t1339052977
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004FD053B4000000000002D360
+t1339052980
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004FD053B500000000004B9F70
+t1339052981
+s4956016
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004FD053F2000000000032B7E0
+t1339053042
+s3323872
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cpp
+c0000000050A3C4970000000000000A94
+t1352909975
+s2708
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Info.plist
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/MacOS/simpleVBO
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBO.LinkFileList
+c0000000050A3C497000000000000008A
+t1352909975
+s138
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.o
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/CinderApp.icns
+c0000000050A3BE9B000000000001BEB5
+t1352908443
+s114357
+
+N/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/simpleVBO_Prefix.pch
+c0000000050A3BE9B0000000000000093
+t1352908443
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000050A3BE9B000000000000034F
+t1352908443
+s847
+
+CBuild AST from /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc7638e17fc53b641^e2749617fc53b641^---0#1#0#--18"Check dependencies36"44EF8C88-0A63-4644-8CBE-8B3B8731D47E-
+
+CCompileC ./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.o /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374602775.672645
+e374602777.613599
+r1
+xCompileC
+x./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.o
+x/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cppdb51ac17fc53b641^85269d19fc53b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cpp0000000000000000^2893"CompileC ./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.o ../src/simpleVBOApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/build/Debug/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/build/Debug -include /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch -MMD -MT dependencies -MF /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.d --serialize-diagnostics /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.dia -c /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/../src/simpleVBOApp.cpp -o /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBOApp.o36"1F45C25C-CF0B-4735-81CC-AE0F45F1F6B5-
+
+CCpResource CinderApp.icns ./build/Debug/simpleVBO.app/Contents/Resources/CinderApp.icns
+s374602775.618540
+e374602775.621051
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/simpleVBO.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy ./build/Debug/simpleVBO.app/Contents/Resources/CinderApp.icnsc1709e17fc53b641^51669f17fc53b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Resources/CinderApp.icns000000000080d041^440"CpResource CinderApp.icns ./build/Debug/simpleVBO.app/Contents/Resources/CinderApp.icns    cd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/CinderApp.icns /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Resources36"7CDDC36E-A489-4F62-9F46-D992E9E7A0EC-
+
+CLd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/MacOS/simpleVBO normal i386
+s374602777.620424
+e374602778.252271
+r1
+xLd
+x/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/MacOS/simpleVBO
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/MacOS/simpleVBOeaea9e19fc53b641^e195401afc53b641^---0#0#0#--1083"Ld ./build/Debug/simpleVBO.app/Contents/MacOS/simpleVBO normal i386    cd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/build/Debug -F/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/build/Debug -filelist /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/Objects-normal/i386/simpleVBO.LinkFileList -mmacosx-version-min=10.5 ../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/MacOS/simpleVBO36"D4D9DCA4-FC24-422A-A25A-351BC7C47ADD-
+
+CProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Info.plist Info.plist
+s374602775.595549
+e374602775.599761
+r1
+xProcessInfoPlistFile
+x/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist2d989817fc53b641^d5979917fc53b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/Info.plist0000000000000000^444"ProcessInfoPlistFile ./build/Debug/simpleVBO.app/Contents/Info.plist Info.plist    cd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app/Contents/Info.plist36"75AA7504-7873-4703-B9F6-D70EC3BEAA2C-
+
+CProcessPCH++ /Users/yinliu/Library/Developer/Xcode/DerivedData/simpleVBO-gbupfgwmdkwfelcdwtpafqhwkpqy/Index/PrecompiledHeaders/simpleVBO_Prefix-ffuzbwniopidlnbaoxwarixbiobk_ast/simpleVBO_Prefix.pch.pth simpleVBO_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.pth simpleVBO_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374602775.628839
+e374602775.665126
+r1
+xProcessPCH++
+x/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.pth
+xsimpleVBO_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile simpleVBO_Prefix.pchef1da117fc53b641^e545aa17fc53b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/simpleVBO_Prefix.pch0000000000000000^2889"ProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.pth simpleVBO_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/simpleVBO-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/build/Debug/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/simpleVBO.build/Debug/simpleVBO.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/build/Debug --serialize-diagnostics /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.dia -c /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/simpleVBO_Prefix.pch -o /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleVBO_Prefix-gddgumfgsyfmcrdgcubyrccqfwpj/simpleVBO_Prefix.pch.d36"9F5528EB-D9DA-4422-B1C5-97F06D6ACCFD-
+
+CTouch /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app
+s374602778.261348
+e374602778.267196
+r1
+xTouch
+x/Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.appe8f6421afc53b641^f167441afc53b641^---0#0#0#--205"Touch ./build/Debug/simpleVBO.app    cd /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode    /usr/bin/touch -c /Users/yinliu/Documents/Cinder/exercises/simpleVBO/xcode/./build/Debug/simpleVBO.app36"94836FF5-471E-4F40-9B3D-E344E0A97F4B-
+

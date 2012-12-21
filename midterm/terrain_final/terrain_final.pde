@@ -12,7 +12,7 @@ int meshPointsU = 3;
 //radius of square
 int r = 2;
 //dimensions of the entire cube grid
-int dim = 40;
+int dim = 60;
 //maximum number of cubes in each dimension
 int n = dim/r;
 
@@ -23,7 +23,7 @@ int curz = n-5;
 //current cube location in the grid 
 TCube curCube;
 
-//noise increment
+//noise increment.. this is noise step. the smaller the step, the smoother the terrain
 float increment = 0.08;
 
 //camera/eye position
@@ -53,17 +53,17 @@ void setup() {
       //noise offest 
       yoff+= increment; 
       float h =  noise(xoff, yoff); 
-      int zheight = (int) map(h, 0, 1, 0, n; 
-      for ( int z = 0; z< n; z++) {
+      int zheight = (int) map(h, 0, 1, 0, n); 
+      for ( int zz = 0; zz< n; zz++) {
 
-        cubegrid[i][j][z] = meshFactory.createCube( meshPointsU, r );
+        cubegrid[i][j][zz] = meshFactory.createCube( meshPointsU, r );
         if (mode == 1) {
-          cubegrid[i][j][z].setPosition( new PVector(i*r*2, j*r*2, z*r*2 ));
-          if (z <= zheight)  cubegrid[i][j][z].setVisibility(true);
-          else  cubegrid[i][j][z].setVisibility(false);
+          cubegrid[i][j][zz].setPosition( new PVector(i*r*2, j*r*2, zz*r*2 ));
+          if (zz <= zheight)  cubegrid[i][j][zz].setVisibility(true);
+          else  cubegrid[i][j][zz].setVisibility(false);
         }
         if ( mode == 2) {
-          cubegrid[i][j][z].setPosition( new PVector(i*r*2, j*r*2, zheight*r*2 ));
+          cubegrid[i][j][zz].setPosition( new PVector(i*r*2, j*r*2, zheight*r*2 ));
         }
       }
     }

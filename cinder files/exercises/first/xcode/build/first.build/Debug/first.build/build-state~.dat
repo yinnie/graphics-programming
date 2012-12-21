@@ -1,0 +1,197 @@
+Tfirst
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/first.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.pth first_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.o /Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/MacOS/first normal i386
+cTouch /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c00000000501ACF7700000000000000EE
+t1343934327
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004F7D433B0000000000006500
+t1333609275
+s25856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F7D433C0000000000025E48
+t1333609276
+s155208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004F7D433C0000000000005FA8
+t1333609276
+s24488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000004F7D433C00000000000001E5
+t1333609276
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004F7D433C0000000000014894
+t1333609276
+s84116
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004FD053B00000000000006530
+t1339052976
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FD053B00000000000006560
+t1339052976
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004FD053B1000000000007CED0
+t1339052977
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004FD053B4000000000002D360
+t1339052980
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004FD053B500000000004B9F70
+t1339052981
+s4956016
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004FD053F2000000000032B7E0
+t1339053042
+s3323872
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp
+c0000000050A1186D00000000000002E7
+t1352734829
+s743
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Info.plist
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/MacOS/first
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/Objects-normal/i386/first.LinkFileList
+c0000000050A1186E000000000000007A
+t1352734830
+s122
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.o
+t2
+s0
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/CinderApp.icns
+c0000000050A00FB6000000000001BEB5
+t1352667062
+s114357
+
+N/Users/yinliu/Documents/Cinder/exercises/first/xcode/first_Prefix.pch
+c0000000050A00FB60000000000000093
+t1352667062
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000050A00FB6000000000000034B
+t1352667062
+s843
+
+CBuild AST from /Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0c750cee4f51b641^b83d15ee4f51b641^---0#1#0#--18"Check dependencies36"C510489B-18B2-41DF-BE68-F5C0EEE59C9F-
+
+CCompileC ./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.o /Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374427630.131501
+e374427631.745681
+r1
+xCompileC
+x./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.o
+x/Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp83c121ee4f51b641^79e5beef4f51b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp0000000000000000^2713"CompileC ./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.o ../src/firstApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/first/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/build/Debug/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/first/xcode/build/Debug -include /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch -MMD -MT dependencies -MF /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.d --serialize-diagnostics /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.dia -c /Users/yinliu/Documents/Cinder/exercises/first/xcode/../src/firstApp.cpp -o /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/Objects-normal/i386/firstApp.o36"5B8CA1C7-0DAB-483E-8BAF-960110911F9F-
+
+CCpResource CinderApp.icns ./build/Debug/first.app/Contents/Resources/CinderApp.icns
+s374427630.100822
+e374427630.104386
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/first.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy ./build/Debug/first.app/Contents/Resources/CinderApp.icns27de19ee4f51b641^23bb1aee4f51b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Resources/CinderApp.icns000000000080d041^420"CpResource CinderApp.icns ./build/Debug/first.app/Contents/Resources/CinderApp.icns    cd /Users/yinliu/Documents/Cinder/exercises/first/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yinliu/Documents/Cinder/exercises/first/xcode/CinderApp.icns /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Resources36"803B4212-1CFD-4496-B9CB-2603475A2E59-
+
+CLd /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/MacOS/first normal i386
+s374427631.752610
+e374427632.085640
+r1
+xLd
+x/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/MacOS/first
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/MacOS/first34bdc0ef4f51b641^f6ec15f04f51b641^---0#0#0#--1035"Ld ./build/Debug/first.app/Contents/MacOS/first normal i386    cd /Users/yinliu/Documents/Cinder/exercises/first/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/yinliu/Documents/Cinder/exercises/first/xcode/build/Debug -F/Users/yinliu/Documents/Cinder/exercises/first/xcode/build/Debug -filelist /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/Objects-normal/i386/first.LinkFileList -mmacosx-version-min=10.5 ../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/MacOS/first36"4B2FEF6B-73DC-40B7-AF09-F5072150EAC7-
+
+CProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Info.plist Info.plist
+s374427630.089223
+e374427630.092830
+r1
+xProcessInfoPlistFile
+x/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist4be416ee4f51b641^4cc417ee4f51b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/yinliu/Documents/Cinder/exercises/first/xcode/Info.plist0000000000000000^420"ProcessInfoPlistFile ./build/Debug/first.app/Contents/Info.plist Info.plist    cd /Users/yinliu/Documents/Cinder/exercises/first/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app/Contents/Info.plist36"332F4010-FA07-4966-B07F-1B2A5BC379E8-
+
+CProcessPCH++ /Users/yinliu/Library/Developer/Xcode/DerivedData/first-gjarjdcroguwjwbbbhlvheuxlzdp/Index/PrecompiledHeaders/first_Prefix-asdtfxcehuxxxackcwnsxhliqsjf_ast/first_Prefix.pch.pth first_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.pth first_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374427630.113126
+e374427630.124637
+r1
+xProcessPCH++
+x/var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.pth
+xfirst_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile first_Prefix.pch5f0c1dee4f51b641^910d20ee4f51b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/yinliu/Documents/Cinder/exercises/first/xcode/first_Prefix.pch0000000000000000^2745"ProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.pth first_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yinliu/Documents/Cinder/exercises/first/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-generated-files.hmap -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-own-target-headers.hmap -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-all-target-headers.hmap -iquote /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/first-project-headers.hmap -iquote../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/build/Debug/include -I../../../../cinder_0.8.4_mac/boost -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/DerivedSources/i386 -I/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/first.build/Debug/first.build/DerivedSources -F/Users/yinliu/Documents/Cinder/exercises/first/xcode/build/Debug --serialize-diagnostics /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.dia -c /Users/yinliu/Documents/Cinder/exercises/first/xcode/first_Prefix.pch -o /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/first_Prefix-dpskdheakporzqggddomrylwcetv/first_Prefix.pch.d36"67F4E224-213A-4AC9-9ADD-EA6946A87D27-
+
+CTouch /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app
+s374427632.097549
+e374427632.112299
+r1
+xTouch
+x/Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Touch /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.appe58019f04f51b641^16c01cf04f51b641^---0#0#0#--189"Touch ./build/Debug/first.app    cd /Users/yinliu/Documents/Cinder/exercises/first/xcode    /usr/bin/touch -c /Users/yinliu/Documents/Cinder/exercises/first/xcode/./build/Debug/first.app36"BC128FB8-B743-444A-BE96-D296424BEBF0-
+
