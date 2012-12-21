@@ -3,8 +3,8 @@
 
 using namespace ci;
 
-#define COL 50
-#define ROW 50
+#define COL 80
+#define ROW 80
 
 
 class Gol {

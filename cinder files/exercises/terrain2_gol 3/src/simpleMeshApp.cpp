@@ -17,8 +17,8 @@ using namespace ci::app;
 using namespace std;
 
 #define STRINGIFY(s) #s
-#define COL 50
-#define ROW 50
+#define COL 80
+#define ROW 80
 
 static const string GLSL_VERT_PASSTHROUGH = STRINGIFY(
                                                       
@@ -40,10 +40,10 @@ uniform sampler2D   texture;
 void main(void) {
 // Get current position within rect:
                                                       
-//vec2 texCoord	= gl_TexCoord[0].xy;
+vec2 texCoord	= gl_TexCoord[0].xy;
                                                       
 //glitched game of life
-vec2 texCoord	= vec2 ( gl_TexCoord[0].x, gl_TexCoord[0].y*0.5 );
+//vec2 texCoord	= vec2 ( gl_TexCoord[0].x, gl_TexCoord[0].y*0.5 );
 //vec2 texCoord	= vec2 ( gl_TexCoord[0].x, gl_TexCoord[0].y*0.73 );
                                                       
 // Determine the ratio dimension of a single pixel:
@@ -123,7 +123,7 @@ void simpleMeshApp::setup()
     
     CameraPersp cam;
     cam.setPerspective(60.0, getWindowAspectRatio(), 1.0, 1000.0);
-    cam.setEyePoint(Vec3f(0, 50, 120));
+    cam.setEyePoint(Vec3f(50, 70, 150));
     cam.setCenterOfInterestPoint(Vec3f(0.0f, 10.0f, 0.0f));
     mayacam.setCurrentCam(cam);
     
@@ -166,11 +166,7 @@ void simpleMeshApp::draw()
     gl::setMatrices(mayacam.getCamera());
     
     gl::enableDepthRead();
-    //drawGrid();
-    
-    game.generate();
-   
-    mTexture.enableAndBind();
+
     mShader.bind();
     mShader.uniform("width", (float)(size*0.6));
     mShader.uniform("height", (float)(size*0.6));
@@ -179,45 +175,18 @@ void simpleMeshApp::draw()
     //visualizing game of life with cubes
     for ( int i = 0; i < COL; i++){
         for ( int j = 0; j < ROW; j++) {
-            
-            cout << game.board[i][j] << endl;
+                        
             int height = game.total[i][j];
+            
                 gl::pushMatrices();
                 gl::translate(Vec3f(i*cubeRadius*2, height, j*cubeRadius*2));
                 gl::draw(vbomesh);
                 gl::popMatrices();
         }
     }
-    
-    /*
-    for ( int i = 0; i < COL; i++){
-        for ( int j = 0; j < ROW; j++) {
-            
-            cout << game.board[i][j] << endl;
-            int height = game.total[i][j];
-            gl::pushMatrices();
-            gl::translate(Vec3f(i*cubeRadius*2, height, j*cubeRadius*2));
-            gl::draw(vbomesh);
-            gl::popMatrices();
-        }
-    }
-     */
-    
-    mTexture.unbind();
     mShader.unbind();
 }
 
-void simpleMeshApp::drawGrid()
-{
-    glColor3f(1, 1, 1);
-    float step = 10.0;
-    float side = 200;
-    for ( int i = -side; i < side; i+=step)
-    {
-        gl::drawLine(Vec3f(i, 0, -side), Vec3f(i,0,side));
-        gl::drawLine(Vec3f(-side, 0, i), Vec3f(side, 0, i));
-    }
-}
 
 void simpleMeshApp::mouseMove(MouseEvent event) {
     mousePos = event.getPos();
@@ -225,8 +194,9 @@ void simpleMeshApp::mouseMove(MouseEvent event) {
 
 void simpleMeshApp::mouseDown( MouseEvent event )
 {
+    game.generate();
     mayacam.mouseDown( event.getPos() );
-      
+        
 }
 
 void simpleMeshApp::mouseDrag(MouseEvent event){

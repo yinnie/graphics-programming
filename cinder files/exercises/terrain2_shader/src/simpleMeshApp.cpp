@@ -67,7 +67,7 @@ static const string GLSL_VERT_PASSTHROUGH = STRINGIFY(
     if     ( ( curZ >= 0.5 ) && (sum == 2 || sum == 3) ) { outVal = 1.0; }
     else if( ( curZ <  0.5 ) && (sum == 3) )             { outVal = 1.0; }
     
-	gl_Position = vec4 ( outVal, outVal, outVal, 1.0);
+	gl_Position = vec4 ( pos.x-curZ, pos.y, curZ, 1.0);
 }
                                                       
                                                       
@@ -88,7 +88,8 @@ static const string GLSL_FRAG_IMGPROC = STRINGIFY(
 
 class simpleMeshApp : public AppBasic {
   public:
-	void setup();
+    void setup();
+    void prepareSettings(Settings *settings);
 	void mouseDown( MouseEvent event );
     void mouseDrag( MouseEvent event );
     void mouseMove( MouseEvent event );
@@ -109,6 +110,11 @@ class simpleMeshApp : public AppBasic {
     
     gl::GlslProg mShader;
 };
+
+void simpleMeshApp::prepareSettings(Settings *settings)
+{
+    settings-> setWindowSize(1280, 760);
+}
 
 void simpleMeshApp::setup()
 {
@@ -155,7 +161,7 @@ void simpleMeshApp::draw()
    drawGrid();
      
    
-    mShader.bind();
+    //mShader.bind();
     mShader.uniform("size", (float)3.0);
     
     
@@ -184,7 +190,7 @@ void simpleMeshApp::draw()
             }
         }
     }
-    mShader.unbind();
+    //mShader.unbind();
 }
 
 void simpleMeshApp::drawGrid()

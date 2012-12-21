@@ -65,7 +65,7 @@ void main()
     float noiseAmntX = noise( vec2(-time + pos.x / 10.0, 10.0), 6.0);
 	float noiseAmntZ = noise( vec2(time + pos.z / 10.0, pos.z / 10.0), 6.0 );
     
-    pos.y -= 12.0 * time;
+    pos.y -= 0.05 * time;
     pos.x += noiseAmntX * 0.3;
 	pos.z += noiseAmntZ * 0.3;
     
@@ -78,13 +78,14 @@ static const string GLSL_FRAG_IMGPROC = STRINGIFY(
 const float frequency = 2.3;
 uniform vec3 Color0;
 uniform vec3 Color1;
-                                                  
+uniform float time;
 varying float V;
                                                   
                                                   
     void main()
-    {    
-    float sawtooth = fract (V * frequency);
+    {
+        float fre = frequency * mod (time, 5.0) * 9.0;
+    float sawtooth = fract (V * fre);
     float triangle = abs(2.0 * sawtooth - 1.0);
     float dp = length ( vec2(dFdx(V), dFdy(V)));
     float edge = dp * frequency * 2.0;

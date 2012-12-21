@@ -38,11 +38,11 @@ static const string GLSL_FRAG_GOL = STRINGIFY(
     void main(void) {
         // Get current position within rect:
     
-        //vec2 texCoord	= gl_TexCoord[0].xy;
+        vec2 texCoord	= gl_TexCoord[0].xy;
         
         //glitched game of life
         //vec2 texCoord	= vec2 ( gl_TexCoord[0].x, gl_TexCoord[0].y*0.5 );
-        vec2 texCoord	= vec2 ( gl_TexCoord[0].x, gl_TexCoord[0].y*0.73 );
+        //vec2 texCoord	= vec2 ( gl_TexCoord[0].x, gl_TexCoord[0].y*0.73 );
         
         // Determine the ratio dimension of a single pixel:
         float w			= 1.0/width;

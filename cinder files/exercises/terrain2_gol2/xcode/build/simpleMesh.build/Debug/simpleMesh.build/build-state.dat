@@ -5,8 +5,8 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/./build/Debug/simpleMesh.app/Contents/Info.plist Info.plist
 cCpResource CinderApp.icns ./build/Debug/simpleMesh.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/mn/0kqrv2d93dg1z4vdxb8m954h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/simpleMesh_Prefix-eicmploonsiwregpwtlcegeqgfhx/simpleMesh_Prefix.pch.pth simpleMesh_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/simpleMesh.build/Debug/simpleMesh.build/Objects-normal/i386/TCube.o /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/TCube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/simpleMesh.build/Debug/simpleMesh.build/Objects-normal/i386/Gol.o /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/Gol.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/simpleMesh.build/Debug/simpleMesh.build/Objects-normal/i386/TCube.o /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/TCube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/simpleMesh.build/Debug/simpleMesh.build/Objects-normal/i386/simpleMeshApp.o /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/../src/simpleMeshApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/./build/Debug/simpleMesh.app/Contents/MacOS/simpleMesh normal i386
 cTouch /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/./build/Debug/simpleMesh.app
@@ -21253,7 +21253,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa08aeb885082b641^71ae15895082b641^---0#1#0#--18"Check dependencies36"0E1B81BF-E6BA-4B64-854A-FCE19B4931B5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc3d5c50b2385b641^d7a1fa0b2385b641^---0#1#0#--18"Check dependencies36"058C5250-7C8D-45C1-881A-F643A93405FC-
 
 CCompileC ./build/simpleMesh.build/Debug/simpleMesh.build/Objects-normal/i386/Gol.o /Users/yinliu/Documents/Cinder/exercises/terrain2_gol2/xcode/Gol.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s376758993.759834
