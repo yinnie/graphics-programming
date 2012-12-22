@@ -89,7 +89,7 @@ static const string GLSL_FRAG_IMGPROC = STRINGIFY(
                                                   
                                                   void main()
                                                   {
-                                                      float fre = frequency * mod (time, 30.0) * 2.0;
+                                                      float fre = frequency * mod (time, 8.0) * 2.0;
                                                       float sawtooth = fract (V * fre);
                                                       float triangle = abs(2.0 * sawtooth - 1.0);
                                                       float dp = length ( vec2(dFdx(V), dFdy(V)));
@@ -144,7 +144,7 @@ void simpleMeshApp::setup()
     
     CameraPersp cam;
     cam.setPerspective(60.0, getWindowAspectRatio(), 1.0, 1000.0);
-    cam.setEyePoint(Vec3f(50, 70, 150));
+    cam.setEyePoint(Vec3f(50, 55, 150));
     cam.setCenterOfInterestPoint(Vec3f(0.0f, 10.0f, 0.0f));
     mayacam.setCurrentCam(cam);
     
@@ -176,6 +176,7 @@ void simpleMeshApp::setup()
 
 void simpleMeshApp::update()
 {
+    //hideCursor();
 }
 
 void simpleMeshApp::draw()

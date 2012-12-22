@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/yinliu/Documents/Cinder/exercises/terrain2_gol\ 4/xcode/Gol.cpp \
-  /Users/yinliu/Documents/Cinder/exercises/terrain2_gol\ 4/xcode/Gol.h \
+  /Users/yinliu/Documents/Cinder/exercises/final/xcode/Gol.cpp \
+  /Users/yinliu/Documents/Cinder/exercises/final/xcode/Gol.h \
   ../../../../cinder_0.8.4_mac/include/cinder/app/AppBasic.h \
   ../../../../cinder_0.8.4_mac/include/cinder/app/App.h \
   ../../../../cinder_0.8.4_mac/include/cinder/Cinder.h \

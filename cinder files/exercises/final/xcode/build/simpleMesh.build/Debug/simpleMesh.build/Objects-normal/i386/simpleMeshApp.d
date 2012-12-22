@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/yinliu/Documents/Cinder/exercises/terrain2_gol\ 4/xcode/../src/simpleMeshApp.cpp \
+  /Users/yinliu/Documents/Cinder/exercises/final/xcode/../src/simpleMeshApp.cpp \
   ../../../../cinder_0.8.4_mac/include/cinder/app/AppBasic.h \
   ../../../../cinder_0.8.4_mac/include/cinder/app/App.h \
   ../../../../cinder_0.8.4_mac/include/cinder/Cinder.h \
@@ -492,12 +492,12 @@ dependencies: \
   ../../../../cinder_0.8.4_mac/include/cinder/app/TouchEvent.h \
   ../../../../cinder_0.8.4_mac/include/cinder/TriMesh.h \
   ../../../../cinder_0.8.4_mac/include/cinder/DataTarget.h \
-  /Users/yinliu/Documents/Cinder/exercises/terrain2_gol\ 4/xcode/TCube.h \
+  /Users/yinliu/Documents/Cinder/exercises/final/xcode/TCube.h \
   ../../../../cinder_0.8.4_mac/include/cinder/Camera.h \
   ../../../../cinder_0.8.4_mac/include/cinder/gl/Vbo.h \
   ../../../../cinder_0.8.4_mac/include/cinder/Perlin.h \
   ../../../../cinder_0.8.4_mac/include/cinder/MayaCamUI.h \
   ../../../../cinder_0.8.4_mac/include/cinder/gl/GlslProg.h \
-  /Users/yinliu/Documents/Cinder/exercises/terrain2_gol\ 4/xcode/Gol.h \
+  /Users/yinliu/Documents/Cinder/exercises/final/xcode/Gol.h \
   ../../../../cinder_0.8.4_mac/include/cinder/gl/Texture.h \
   ../../../../cinder_0.8.4_mac/include/cinder/ImageIo.h

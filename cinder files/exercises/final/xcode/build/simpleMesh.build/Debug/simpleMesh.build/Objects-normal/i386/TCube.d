@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/yinliu/Documents/Cinder/exercises/terrain2_gol\ 4/xcode/TCube.cpp \
-  /Users/yinliu/Documents/Cinder/exercises/terrain2_gol\ 4/xcode/TCube.h \
+  /Users/yinliu/Documents/Cinder/exercises/final/xcode/TCube.cpp \
+  /Users/yinliu/Documents/Cinder/exercises/final/xcode/TCube.h \
   ../../../../cinder_0.8.4_mac/include/cinder/gl/gl.h \
   ../../../../cinder_0.8.4_mac/include/cinder/Cinder.h \
   ../../../../cinder_0.8.4_mac/boost/boost/cstdint.hpp \
